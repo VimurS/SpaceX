@@ -24,7 +24,7 @@ export default function Login() {
     }, [isAuthenticated, navigate]);
 
     const handleSubmit = () => {
-        if (username === 'admin' && password === 'password') {
+        if (username === 'admin' && password === 'OpenSesame@123') {
             login('dummy-token');
         } else {
             alert('Invalid credentials');
